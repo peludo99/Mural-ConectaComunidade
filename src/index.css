@@ -1,0 +1,87 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  
+  border-color: hsl(var(--border));
+
+
+  background-color: hsl(var(--background));
+  color:hsl(var(--foreground))
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+:root {
+    /* Base Hues (Matizes) */
+    --hue-gray: 220;
+    --hue-success: 142;
+    --hue-info: 210;
+    --hue-error: 0;
+    --hue-warning: 45;
+    --hue-alert: 30;
+    --hue-promo: 280;
+    --cor: #171c25;
+
+    /* Backgrounds & Surfaces */
+    --background: var(--hue-gray) 25% 8%;
+    --foreground: 210 20% 95%;
+    
+    --card: var(--hue-gray) 25% 12%;
+    --card-foreground: var(--foreground);
+    
+    --popover: var(--card);
+    --popover-foreground: var(--foreground);
+
+    /* Actions & Brand */
+    --primary: var(--hue-success) 55% 45%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: var(--hue-info) 65% 55%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* UI States */
+    --muted: var(--hue-gray) 20% 18%;
+    --muted-foreground: var(--hue-gray) 15% 60%;
+    
+    --accent: var(--hue-success) 40% 18%;
+    --accent-foreground: var(--hue-success) 55% 70%;
+    
+    --destructive: var(--hue-error) 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: var(--hue-gray) 20% 20%;
+    --input: var(--border);
+    --ring: var(--primary);
+
+    /* Tags & Feedback */
+    --tag-ajuda: var(--hue-alert) 85% 50%;
+    --tag-discussao: var(--secondary);
+    --tag-aviso: var(--hue-error) 65% 50%;
+    --tag-promocao: var(--hue-promo) 60% 60%;
+    
+    --success: var(--primary);
+    --warning: var(--hue-warning) 90% 50%;
+    --info: var(--secondary);
+
+    /* Sidebar */
+    --sidebar-background: var(--hue-gray) 25% 10%;
+    --sidebar-foreground: var(--foreground);
+    --sidebar-primary: var(--primary);
+    --sidebar-primary-foreground: var(--primary-foreground);
+    --sidebar-accent: var(--accent);
+    --sidebar-accent-foreground: var(--accent-foreground);
+    --sidebar-border: var(--border);
+    --sidebar-ring: var(--primary);
+}
