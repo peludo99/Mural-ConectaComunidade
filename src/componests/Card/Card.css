@@ -1,0 +1,106 @@
+.card {
+
+    width: 100%;
+    height: 200px;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(230, 34, 34, 0.1);
+    padding: 16px;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 5%;
+    border: 1px solid rgba(255, 255, 255, 0.164);
+  
+
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 3%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #171c25;
+    height: 250px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.containerUserNav {
+    display: flex;
+    align-items: center;
+
+
+
+
+    width: 100%;
+
+}
+
+.containerUserNavImage {
+    width: 25%;
+    height: 25%;
+    margin-left: 1%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+    }
+
+}
+
+
+.containerUserNavInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+}
+
+
+.containerUserNavOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+
+
+.containerContent {
+
+    width: 100%;
+    padding: 1%;
+    margin-top: 2.5%;
+
+
+
+}
+
+.containerFooter {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2% 0 5%;
+
+
+    margin-top: 2.5%;
+}
+
+
+.containerFooterItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}

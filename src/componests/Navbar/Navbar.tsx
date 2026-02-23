@@ -27,11 +27,13 @@ function Navbar() {
 
                  <p className='title'>Alto Nossa Senhora de Fátima</p>
 
-                <ul className="nav-items">
+                 <i className="fa-regular fa-sun"></i>
+
+                {/* <ul className="nav-items">
                     {intems.map((item, index) => (
                         <NavItem key={index} url={item.url} label={item.label} />
                     ))}
-                </ul>
+                </ul> */}
 
             </nav>
 
